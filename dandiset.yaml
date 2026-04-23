@@ -25,8 +25,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 486912308952
-  numberOfFiles: 38
+  numberOfBytes: 499099664150
+  numberOfFiles: 39
   numberOfSubjects: 14
   schemaKey: AssetsSummary
   species:
