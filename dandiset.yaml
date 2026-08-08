@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -15,32 +16,32 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
-  - name: analytical technique
     schemaKey: MeasurementTechniqueType
   - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
-  - name: surgical technique
+  - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 576730865667
-  numberOfFiles: 45
-  numberOfSubjects: 14
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 770337238886
+  numberOfFiles: 60
+  numberOfSubjects: 16
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - LFP
-  - Units
-  - ElectrodeGroup
   - ElectricalSeries
+  - Units
   - ProcessingModule
-citation: Peene, Carter (2025) Predictive Processing Community - Ecephys (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001637/draft
+  - LFP
+  - ElectrodeGroup
+citation: Peene, Carter (2026) Allen Institute OpenScope - Predictive Processing (Ecephys)
+  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001637/draft
 contributor:
 - affiliation: []
   email: rcpeene@gmail.com
@@ -52,15 +53,18 @@ contributor:
 dateCreated: '2025-11-12T00:42:06.696184+00:00'
 description: This dataset contains data acquired on the Ecephys platform as part of
   the OpenScope predictive processing community project
+ethicsApproval: []
 id: DANDI:001637/draft
 identifier: DANDI:001637
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001637/versions/draft/assets/
-name: Predictive Processing Community - Ecephys
+name: Allen Institute OpenScope - Predictive Processing (Ecephys)
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
 url: https://dandiarchive.org/dandiset/001637/draft
 version: draft
+wasGeneratedBy: []
